@@ -1,5 +1,13 @@
 import streamlit as st 
-# from utils import generate_script
+from utils import generate_script
+import os
+
+# load_dotenv()
+
+# # Access the OpenAI API key using os.getenv
+# openai_api_key = os.getenv("OPENAI_API_KEY")
+
+
 
 # Applying Styling
 st.markdown("""
