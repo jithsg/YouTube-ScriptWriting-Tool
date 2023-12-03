@@ -1,6 +1,6 @@
 
 ## YouTube Script Writing Tool
-This is a simple web application created using Streamlit that helps you generate YouTube video scripts based on a given topic. You can use this tool to quickly generate scripts for your YouTube videos without having to write them manually.
+This is a simple web application created using Streamlit that helps you generate YouTube video scripts based on a given topic suing OpenAI API. You can use this tool to quickly generate scripts for your YouTube videos without having to write them manually.
 
 # Getting Started
 - To use this tool, you'll need to follow these steps:
