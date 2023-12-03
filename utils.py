@@ -19,7 +19,7 @@ def generate_script(prompt,video_length,creativity,api_key):
     )
 
     #Setting up OpenAI LLM
-    llm = OpenAI(temperature=creativity,openai_api_key=api_key,
+    llm = OpenAI(temperature=creativity,api_key=api_key,
             model_name='gpt-3.5-turbo') 
     
     #Creating chain for 'Title' & 'Video Script'

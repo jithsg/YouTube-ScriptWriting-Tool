@@ -1,6 +1,6 @@
 langchain
 streamlit
-openai
+openai==0.28
 tiktoken
 python-dotenv
 pinecone-client

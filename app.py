@@ -1,8 +1,7 @@
 import streamlit as st 
 from utils import generate_script
-import os
 
-# load_dotenv()
+
 
 # # Access the OpenAI API key using os.getenv
 # openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -47,7 +46,7 @@ submit = st.button("Generate Script for me")
 if submit:
     
     if st.session_state['API_Key']:
-        search_result,title,script = generate_script(prompt,video_length,creativity,st.session_state['API_Key'])
+        search_result,title,script = generate_script(prompt=prompt,video_length=video_length,creativity=creativity,api_key=st.session_state['API_Key'])
         #Let's generate the script
         st.success('Hope you like this script ❤️')
 
